@@ -37,7 +37,7 @@ namespace Crud_App
             btnSave2.Text = "Save";
         }
 
-        public void Cleaer()
+        public void Clear()
         {
             txtModel.Text = txtCoin.Text = txtNote.Text = string.Empty;
         }
@@ -69,7 +69,7 @@ namespace Crud_App
             {
                 Product prd = new Product(txtModel.Text.Trim(), txtCoin.Text.Trim(), txtNote.Text.Trim());
                 DbProduct.AddProduct(prd);
-                // Clear(); FIX THIS ???
+                Clear();
 
             }
 

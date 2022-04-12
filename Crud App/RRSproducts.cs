@@ -22,7 +22,7 @@ namespace Crud_App
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-            //form.clear(); FIX?????
+            form.Clear();
             form.SaveInfo();
             form.ShowDialog();
         }
