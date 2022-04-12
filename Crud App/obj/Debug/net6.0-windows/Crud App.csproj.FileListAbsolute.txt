@@ -1,0 +1,28 @@
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\Crud App.exe
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\Crud App.deps.json
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\Crud App.runtimeconfig.json
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\Crud App.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\Crud App.pdb
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.csproj.AssemblyReference.cache
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud_App.Properties.Resources.resources
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud_App.RRSproducts.resources
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.csproj.GenerateResource.cache
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.AssemblyInfoInputs.cache
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.AssemblyInfo.cs
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.csproj.CoreCompileInputs.cache
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\refint\Crud App.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.pdb
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.genruntimeconfig.cache
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\ref\Crud App.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud_App.FormProduct.resources
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\Mr Kek\Desktop\c#\Crud App\CRUD-App\Crud App\obj\Debug\net6.0-windows\Crud App.csproj.CopyComplete
