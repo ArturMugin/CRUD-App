@@ -39,6 +39,8 @@ namespace Crud_App
             DbProduct.DisplayAndSearch("SELECT ID, Model, Coin, Note FROM products WHERE Model LIKE'%"+ txtSearch.Text +"%'", dataGridView);
         }
 
+  
+
         private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if(e.ColumnIndex == 0)

@@ -1,5 +1,4 @@
-﻿using MySql.Data.MySqlClient;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +18,8 @@ namespace Crud_App
         {
             InitializeComponent();
             _parent = parent;
+
+            
         }
 
         public void UpdateInfo()
@@ -28,6 +29,7 @@ namespace Crud_App
             txtModel.Text = model;
             txtCoin.Text = coin;
             txtNote.Text = note;
+
 
 
         }
@@ -50,12 +52,18 @@ namespace Crud_App
         {
 
         }
+        public string check = "";
 
-        private void btnSave2_Click(object sender, EventArgs e)
+   
+
+        private void btnSave2_Click(object sender, System.EventArgs e)
         {
-            if(txtModel.Text.Trim().Length < 3)
+
+            
+            if (txtModel.Text.Trim().Length < 3)
             {
                 MessageBox.Show("Product model field is Empty");
+                
                 return;
             }
 
@@ -71,24 +79,22 @@ namespace Crud_App
             }
             if (btnSave2.Text == "Save")
             {
-                Product prd = new Product(txtModel.Text.Trim(), txtCoin.Text.Trim(), txtNote.Text.Trim());
-                DbProduct.AddProduct(prd);
+                check = txtModel.Text;
 
+ 
+                DbProduct.CheckAirCraft(check);
 
+                if (DbProduct.result > 0)
+                {
+                    MessageBox.Show("This model already exists");
 
+                }
+                else
+                {
 
-
-
-
-
-
-
-
-
-
-
-
-
+                    Product prd = new Product(txtModel.Text.Trim(), txtCoin.Text.Trim(), txtNote.Text.Trim());
+                    DbProduct.AddProduct(prd);
+                }
 
 
 

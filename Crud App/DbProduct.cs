@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
+
 namespace Crud_App
 {
     internal class DbProduct
@@ -23,6 +24,7 @@ namespace Crud_App
                 MessageBox.Show($"Connection faild! \nError number{ex.Message}\n{MessageBoxButtons.OK}{MessageBoxIcon.Error}");
             }
             return conn;
+
         }
 
 
@@ -46,10 +48,41 @@ namespace Crud_App
             {
                 MessageBox.Show($"Product not added! \nError number{ex.Message}\n{MessageBoxButtons.OK}{MessageBoxIcon.Error}");
             }
+
+            
+
+
             conn.Close();
+
+
+
         }
 
 
+        public static int result;
+        public static int CheckAirCraft(string check)
+        {
+            
+
+            string sql = "SELECT COUNT(*) FROM products WHERE Model = @a";
+
+            MySqlConnection conn = GetConnection();
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+ 
+                cmd.Parameters.AddWithValue("@a", check);
+                result = Convert.ToInt32(cmd.ExecuteScalar());
+                
+                if (result > 0)
+                {
+                return result;
+                }
+                else
+                {
+                return result;
+                }
+            conn.Close();
+
+        }
 
 
         public static void UpdateProduct(Product prd, string id)
@@ -62,6 +95,10 @@ namespace Crud_App
             cmd.Parameters.Add("@ProductModel", MySqlDbType.VarChar).Value = prd.Model;
             cmd.Parameters.Add("@ProductCoin", MySqlDbType.VarChar).Value = prd.Coin;
             cmd.Parameters.Add("@ProductNote", MySqlDbType.VarChar).Value = prd.Note;
+
+
+
+
             try
             {
                 cmd.ExecuteNonQuery();
