@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,6 +43,9 @@ namespace Crud_App
             txtModel.Text = txtCoin.Text = txtNote.Text = string.Empty;
         }
 
+
+
+
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -69,6 +73,26 @@ namespace Crud_App
             {
                 Product prd = new Product(txtModel.Text.Trim(), txtCoin.Text.Trim(), txtNote.Text.Trim());
                 DbProduct.AddProduct(prd);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 Clear();
 
             }

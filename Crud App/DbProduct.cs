@@ -25,6 +25,9 @@ namespace Crud_App
             return conn;
         }
 
+
+
+
         public static void AddProduct(Product prd)
         {
             string sql = "INSERT INTO products VALUES (NULL, @ProductModel, @ProductCoin, @ProductNote, NULL)";
@@ -37,11 +40,11 @@ namespace Crud_App
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show($"Added Succsessfully \nInformation\n{MessageBoxButtons.OK}{MessageBoxIcon.Information}");
+                MessageBox.Show($"Product added Succsessfully");
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show($"Product not inserted! \nError number{ex.Message}\n{MessageBoxButtons.OK}{MessageBoxIcon.Error}");
+                MessageBox.Show($"Product not added! \nError number{ex.Message}\n{MessageBoxButtons.OK}{MessageBoxIcon.Error}");
             }
             conn.Close();
         }
@@ -62,7 +65,7 @@ namespace Crud_App
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show($"Updated Succsessfully! \nInformation\n{MessageBoxButtons.OK}{MessageBoxIcon.Information}");
+                MessageBox.Show($"Updated Succsessfully!");
             }
             catch (MySqlException ex)
             {
@@ -70,6 +73,8 @@ namespace Crud_App
             }
             conn.Close();
         }
+
+
 
         public static void DeleteProduct(string id)
         {
@@ -81,7 +86,7 @@ namespace Crud_App
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show($"Deleted Succsessfully! \nInformation\n{MessageBoxButtons.OK}{MessageBoxIcon.Information}");
+                MessageBox.Show($"Deleted Succsessfully!");
             }
             catch (MySqlException ex)
             {
@@ -101,6 +106,11 @@ namespace Crud_App
             dgv.DataSource = tbl;
             conn.Close();
         }
+
+
+
+
+
 
 
     }
